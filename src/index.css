@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss"; 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.input {
+  @apply w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:border-[#2E7D32];
+}
